@@ -2,6 +2,8 @@
 
 Suomalaisille käyttäjille tarkoitettu mainosten ja tracking eli jäljitteiden estoon tarkoitettu host tiedosto. Estää suurimman osan suosittujen verkkosivujen mainosten latautumisen.
 
+Tuki IPv4 + IPv6 osoitteille. 
+
 Vapaasti ladattavissa ja forkattavissa eteenpäin. 
 
 ## Ei toimi:
