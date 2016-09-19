@@ -1,4 +1,4 @@
-# Host File for Ads and tracking blocking for Finnish users
+# Host File for Ads and tracking blocking
 
 Suomalaisille käyttäjille tarkoitettu mainosten ja tracking eli jäljitteiden estoon tarkoitettu host tiedosto. Estää suurimman osan suosittujen verkkosivujen mainosten latautumisen.
 
