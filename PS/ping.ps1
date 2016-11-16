@@ -3,7 +3,7 @@ $datetime = get-date -f yyyy-MM-dd
 $hostname = (Get-WmiObject -Class Win32_ComputerSystem -Property Name).Name
 $logonly="Y"
 $ScriptDir = Split-Path $script:MyInvocation.MyCommand.Path
-$filelocation="$ScriptDir"+"\"+$hostname+"_ping_"+$destination+$datetime+".txt"
+$filelocation="$ScriptDir"+"\ping-"+$hostname+"-"+$destination+"-"+$datetime+".txt"
 
 Do{
     If($logonly -notmatch '^[yn]$' ) { Write-Warning "Invalid Entry" }
