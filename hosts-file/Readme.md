@@ -2,7 +2,10 @@
 
 Suomalaisille käyttäjille tarkoitettu mainosten ja tracking eli jäljitteiden estoon tarkoitettu host tiedosto. Estää suurimman osan suosittujen verkkosivujen mainosten latautumisen.
 
-Tuki IPv4 + IPv6 osoitteille. 
+## Ominaisuudet
+
+* Tuki IPv4 + IPv6 osoitteille. 
+* Toimii Pi-Holessa ja DNSmasqissa kuten hosts-tiedosto
 
 Vapaasti ladattavissa ja forkattavissa eteenpäin. 
 
@@ -17,12 +20,6 @@ Vapaasti ladattavissa ja forkattavissa eteenpäin.
 Lisää tämä croniin... Dnsmasq on uudelleenkäynnistettävä kun on ladannut uusimman version host tiedostosta
 
 ```
-wget https://raw.githubusercontent.com/olkitu/random-stuff/master/hosts-file/hosts.txt -p /tmp/
+wget https://raw.githubusercontent.com/olkitu/random-stuff/master/hosts-file/adblock-list.txt -p /tmp/
 sudo service dnsmasq restart
-```
-
-Lisää croniin että ajaa kerran päivässä esimerkiksi
-
-```
-0 0     * * *   user  /opt/dnsmasq.sh
 ```
